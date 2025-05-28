@@ -1,7 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     /* align-items: stretch; */
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 100vw;
@@ -17,12 +22,13 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    width: 100vw;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 24px;
+    padding: 24px 0px;
     width: 70vw;
 }
 
@@ -84,4 +90,49 @@ ul {
     gap: 16px;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    justify-content: center;
+    gap: 36px;
+    align-items: center;
+    padding: 38px;
+}
+
+.chead {
+    font-size: 48px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.faces {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 160px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+    border: #3882F6 4px solid;
+    border-radius: 8px;
+}
+
+.card .text {
+    width: 200px;
+    color: #444444;
+    font-size: 24px;
 }

@@ -136,3 +136,97 @@ ul {
     color: #444444;
     font-size: 24px;
 }
+
+.qcont {
+    width: 100vw;
+    gap: 8px;
+    padding: 150px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 48px;
+    font-style: italic;
+    color: #1F2937;
+    width: 70vw;
+    font-weight: 100;
+}
+
+.allama {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1F2937;
+    width: 70vw;
+}
+
+.mc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.modal {
+    background-color: #3882F6;
+    border: #3882F6 1px solid;
+    border-radius: 8px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    padding: 48px 0px;
+}
+
+.mcont {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.text .t1{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.text .t2{
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.mcont button{
+    height: 48px;
+    width: 166px;
+    color: #F9FAF8;
+    font-size: 18px;
+    border: #F9FAF8 4px solid;
+    border-radius: 8px;
+    align-self: center;
+    background-color: #3882F6;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;  ;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    color: #F9FAF8;
+    font-size: 24px;
+    padding: 36px 0px;
+}
